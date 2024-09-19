@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>presupuesto</title>
+</head>
+
+<!-- En el body vamos a separar la cabecera, main y footer -->
+<body> 
+    <header>
+        <!-- Creamos una clase cabecera donde introducimos la imagen del logo de la empresa -->
+        <div class="cabecera"><img src="../images/logo_frutas_antonio.jpg" alt="Logo frutas antonio" width="1400" height="300"></div>
+        <nav>
+            <!-- A Continuacion creamos otra clase menu, y dentro de ella creamos otra para cada uno de los botones -->
+            <div class="menu">
+                <span class="boton">
+                    <a href="../index.html" class="menu">Inicio</a>
+                </span>
+                <span class="boton">
+                    <a href="productos.html" class="menu">Productos</a>
+                </span>
+                <span class="botonin">
+                    <a href="presupuesto.html" class="menu">Presupuesto</a>
+                </span>
+                <span class="boton">
+                    <a href="contacto.html" class="menu">Contacto</a>
+                </span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- En este caso no tenemos main, despues de la cabecera introducimos una seccion donde irá nuestro cuestionario -->
+    <section class="cajapresu">
+        <span class="alinear">
+            <form class="registro" action="">
+                <h1>Formulario de registro</h1>
+                <span class="labelinput">
+                    <label fomr="Nombre">Nombre</label>
+                    <input type="nombre" name="nombre" id="nombre" required>
+                </span>
+                <span class="labelinput">
+                    <label for="Direccion">Direccion</label>
+                    <input type="direccion" name="direccion" id="direccion" required>
+                </span>
+                <span class="labelinput">
+                    <label for="Email">Email</label>
+                    <input for="email" name="email" id="email" required>
+                </span>
+                <span class="labelinput">
+                    <label for="Informacion">Mas informacion</label>
+                    <textarea cols="informacion" name="informacion" id="informacion"></textarea>
+                </span>
+                <span class="labelinput">
+                    <input type="checkbox" name="politicas de empresa" value="si" required>
+                    <label>He leido y acepto las politicas de empresa</label>
+                </span>
+                <button type="submit" name="submit" value="submit">Enviar</button>
+            </form>
+        </span>
+    </section>
+
+    <!-- Por ultimo, creamos el footer donde añadiremos la direccion, redes sociales y un aviso legal de la empresa -->
+    <footer>
+        <p>Calle Salvador Muñoz nº15</p>
+        <div id="instagram">
+            <img src="../images/instagram.png">  
+            <p>@Frutas_Antonio</p>
+        </div>
+        <p>Aviso legal empresa</p>
+    </footer>
+
+
+</body>
+</html>

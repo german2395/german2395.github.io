@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Colocamos las diferentes etiquetas meta en el head y enlazamos con la etiqueta link la hoja de estilos.css -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <meta name="description" content="Página de prácticas Frutas Antonio" /> 
+    <meta name="robots" content="NOFOLLOW" /> 
+    <meta name="Author" content="German" /> 
+    <title>Pagina principal</title>
+</head>
+<!-- En el body vamos a separar la cabecera, main y footer -->
+<body>
+    <header>
+        <!-- Creamos una clase cabecera donde introducimos la imagen del logo de la empresa -->
+        <div class="cabecera"><img src="images/logo_frutas_antonio.jpg" alt="Logo frutas antonio" width="1400" height="300"></div>
+        <nav>
+            <!-- A Continuacion creamos otra clase menu, y dentro de ella creamos otra para cada uno de los botones -->
+            <div class="menu">
+                <span class="botonin">
+                    <a href="index.html" class="menu">Inicio</a>
+                </span>
+                <span class="boton">
+                    <a href="view/productos.html" class="menu">Productos</a>
+                </span>
+                <span class="boton">
+                    <a href="view/presupuesto.html" class="menu">Presupuesto</a>
+                </span>
+                <span class="boton">
+                    <a href="view/contacto.html" class="menu">Contacto</a>
+                </span>
+            </div>
+        </nav>
+    </header>
+    <!-- Pasamos al main que separaremos en dos secciones -->
+    <main>
+        <!-- Creamos una primera seccion donde introducimos una descripcion de la empresa -->
+        <section class="cajita">
+            <h1>¿Quienes somos?</h1>
+            <p1>Empresa con mas de 40 años de experiencia en el sector cuidando cada producto y la cercania con los clientes</p1>
+            <p1>Pedido personalizado a domicilio</p1>
+            <p1>Las mejores frutas y hortalizas del mercado</p1> 
+        </section>
+        <!-- Y otra seccion que contendrá 3 tarjetas, cada una con un titulo, una imagen y una breve descripcion  -->
+        <section class="contenedor">
+            <article class="tarjeta">
+                <h1>Cestas personalizas</h1>
+                <img src="images/cesta.jpeg" width="100" height="100">
+                <p>Prepara los mejores regalos</p>
+            </article>
+            <article class="tarjeta">
+                <h1>Tu fruteria de confianza</h1>
+                <img src="images/frutasantonio.jpg" width="100" height="100">
+                <p>Los mejores productos a tu disposicion</p>
+            </article>
+            <article class="tarjeta">
+                <h1>Los productos mas frescos y ecologicos</h1>
+                <img src="images/plantaspatatas.jpeg" width="100" height="100">
+                <p>Mas de 100 años cultivando</p>
+            </article>
+        </section>
+    </main>
+
+    <!-- Por ultimo, creamos el footer donde añadiremos la direccion, redes sociales y un aviso legal de la empresa -->
+    <footer>
+        <p>Calle Salvador Muñoz nº15</p>
+        <div id="instagram">
+            <img src="images/instagram.png">  
+            <p>@Frutas_Antonio</p>
+        </div>
+        <p>Aviso legal empresa</p>
+    </footer>
+
+</body>
+</html>

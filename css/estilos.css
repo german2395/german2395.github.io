@@ -1,0 +1,191 @@
+/* Utilizamos la propierdad box-sizing para indicar como se calcula el alto y ancho de la etiqueta correspondiente */
+*{
+    box-sizing: border-box;
+}
+
+/* Añadimos la fuente roboto para todas las etiquetas h1 */
+.h1
+{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* Añadimos la fuente roboto para todas las etiquetas p */
+.p
+{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+/* Ajustamos el tamaño de la cabecera que utilizaremos en cada pestaña */
+.cabecera
+{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    font-size: 35px;
+}
+
+/* Ajustamos el tamaño de la imagen al de la cabecera */
+.cabecera img
+{
+    margin: 0%;
+    width: 100%;
+}
+
+/* Creamos un menu donde añadimos los diferentes botones para las pestañas */
+.menu
+{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin: 10px;
+}
+
+/* Creamos la clase boton */
+.boton
+{
+    background-color: aquamarine;
+    margin: 5px;
+}
+
+/* Esta sera la clase para remarcar la pestaña en la que nos encontramos */
+.botonin
+{
+    background-color: rgb(194, 194, 216);
+    margin: 5px;
+}
+
+/* La clase tarjeta para añadir las 3 imagenes con descripcion en el index.html */
+.tarjeta
+{
+    background-color: rgb(250, 248, 245);
+    text-align: center;
+    height: 250px;
+    width: 250px;
+}
+
+/* Definimos el espacion donde introduciremos las 3 tarjetas */
+.contenedor
+{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 5%;
+    
+}
+
+/* Damos color y margen al body */
+body
+{
+    background-color: rgb(9, 173, 119);
+    margin: 0px;
+}
+
+/* Añadimos color y margen al main */
+main
+{
+    background-color: aliceblue;
+    padding-bottom: 5%;
+    
+}
+
+/* Definimos el espacio donde tenemos la descripcion de la empresa en index.html */
+.cajita
+{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: column;   
+}
+
+/* Definimos el espacio donde tenemos la descripcion de la empresa en productos.html */
+.cajita2
+{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: column;  
+}
+
+/* Usamos grid para separar la seccion en columnas y añadir imagenes */
+.contenedorprodu
+{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: auto auto;
+    justify-items: center;
+}
+
+/* Ajustamos los margenes de las imagenes */
+.contenedorprodu img
+{
+    margin-bottom: 5%;
+    margin-top: 10%;
+}
+
+/* Es la clase en la que creamos el espacio para las diferentes etiquetas del cuestionario */
+.registro
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+/* Utilizamos esta clase para colocar en orden las etiquetas del formulario */
+.alinear
+{
+    display: flex;
+    justify-content: center;
+}
+
+/* Definimos las etiquetas del formulario */
+.labelinput
+{
+    display: flex;
+    margin: 2px;
+    justify-items: right;
+}
+
+/* Será la seccion donde introducimos el formulario */
+.cajapresu
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: aliceblue;
+}
+
+/* Creamos el espacio para las dos imagenes de contacto.html */
+.contacto
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5%;
+}
+
+/* Ajustamos la imagen que añadimos al footer */
+footer img
+{
+    width: 25px;
+    height: 25px;
+    
+}
+
+/* Alineamos el icono de instagram con el nombre de la red social */
+#instagram
+{
+    display: flex;
+    align-items: center;
+}
